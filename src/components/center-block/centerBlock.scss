@@ -1,0 +1,27 @@
+.center-block {
+  display: flex;
+  flex-direction: column;
+  background-color: $color2;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  &__info {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    border-bottom: 0.2rem solid $color6;
+    background-color: $color2;
+    display: flex;
+    justify-content: space-between;
+    &__topic {
+      font-weight: 700;
+      margin-right: 1.5rem;
+    }
+  }
+  &__messages {
+    align-self: center;
+    flex: 1;
+    width: 90%;
+    }
+}

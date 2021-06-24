@@ -1,0 +1,32 @@
+.mess-form {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  background-color: rgba(48, 24, 75, .9);
+  &__input {
+    box-sizing: border-box;
+    border: none;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 80%;
+    resize: none;
+  }
+  &__btn {
+    border: none;
+    // background-color: $color1;
+    background-color: $color4;
+    // color: $color3;
+    color: $color1;
+    padding: 1rem;
+    border-radius: 1.5rem;
+  }
+}
+
+.line {
+  margin-top: 3rem;
+}

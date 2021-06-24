@@ -1,0 +1,32 @@
+.new-mess {
+  display:  flex;
+  flex-direction: column;
+  &__top {
+    display: flex;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    &__name {
+      // margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    &__img {
+      width: 13rem;
+      height: 11rem;
+      padding-bottom: 0.2rem;
+    }
+    &__date {
+      font-style: italic;
+      margin-left: 1.5rem;
+    }
+  }
+  &--received {
+    background-color: $color22;
+    padding: 0.5rem;
+    word-wrap: break-word;
+  }
+  &--send {
+    background-color: $color1;
+    padding: 0.5rem;
+    word-wrap: break-word;
+  }
+}
