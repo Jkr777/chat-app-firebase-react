@@ -1,4 +1,4 @@
-just a demo app, using firebase and react.js
+A serverless app using react.js and firebase.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
